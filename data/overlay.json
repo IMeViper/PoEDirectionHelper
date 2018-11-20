@@ -1,0 +1,384 @@
+[
+  {
+    "region": "Act I",
+    "zone": [
+      {
+        "zoneName": "The Coast",
+        "zoneSeed": ["Coast_Seed_1","Coast_Seed_2","Coast_Seed_3"]
+      },
+      {
+        "zoneName": "The Mud Flats",
+        "zoneSeed": ["Mud Flats_Seed_1", "Mud Flats_Seed_2"]
+      },
+      {
+        "zoneName": "The Submerged Passage",
+        "zoneSeed": ["Submerged Passage_Seed_1", "Submerged Passage_Seed_2", "Submerged Passage_Seed_3"]
+      },
+      {
+        "zoneName": "The Flooded Depths",
+        "zoneSeed": ["Flooded Depths_Seed_1", "Flooded Depths_Seed_2", "Flooded Depths_Seed_3"]
+      },
+      {
+        "zoneName": "The Climb",
+        "zoneSeed": ["Climb_Seed_1", "Climb_Seed_2"]
+      },
+      {
+        "zoneName": "The Lower Prison",
+        "zoneSeed": ["Lower Prison_Seed_1", "Lower Prison_Seed_2", "Lower Prison_Seed_3", "Lower Prison_Seed_4"]
+      },
+      {
+        "zoneName": "The Upper Prison",
+        "zoneSeed": ["Upper Prison_Seed_1", "Upper Prison_Seed_2", "Upper Prison_Seed_3", "Upper Prison_Seed_4", "Upper Prison_Seed_5"]
+      },
+      {
+        "zoneName": "The Prisoner's Gate",
+        "zoneSeed": ["Prisoner_s Gate_Seed_1", "Prisoner_s Gate_Seed_2", "Prisoner_s Gate_Seed_3"]
+      },
+      {
+        "zoneName": "The Ship Graveyard",
+        "zoneSeed": ["Ship Graveyard_Seed_1", "Ship Graveyard_Seed_2", "Ship Graveyard_Seed_3", "Ship Graveyard_Seed_4"]
+      },
+      {
+        "zoneName": "The Cavern of Wrath",
+        "zoneSeed": ["Cavern of Wrath_Seed_1", "Cavern of Wrath_Seed_2", "Cavern of Wrath_Seed_3"]
+      },
+      {
+        "zoneName": "The Cavern of Anger",
+        "zoneSeed": ["Cavern of Anger_Seed_1", "Cavern of Anger_Seed_2"]
+      }
+    ]
+  },
+  {
+    "region": "Act II",
+    "zone": [
+      {
+        "zoneName": "The Chamber of Sins Level 1",
+        "zoneSeed": ["Chamber of Sins Level 1_Seed_1", "Chamber of Sins Level 1_Seed_2", "Chamber of Sins Level 1_Seed_3"]
+      },
+      {
+        "zoneName": "The Chamber of Sins Level 2",
+        "zoneSeed": ["Chamber of Sins Level 2_Seed_1"]
+      },
+      {
+        "zoneName": "The Weaver's Chambers",
+        "zoneSeed": ["Weaver_s Chambers_Seed_1", "Weaver_s Chambers_Seed_2", "Weaver_s Chambers_Seed_3"]
+      },
+      {
+        "zoneName": "The Wetlands",
+        "zoneSeed": ["Wetlands_Seed_1", "Wetlands_Seed_2", "Wetlands_Seed_3"]
+      },
+      {
+        "zoneName": "The Vaal Ruins",
+        "zoneSeed": ["Vaal Ruins_Seed_1", "Vaal Ruins_Seed_2", "Vaal Ruins_Seed_3"]
+      },
+      {
+        "zoneName": "The Caverns",
+        "zoneSeed": ["Caverns_Seed_1", "Caverns_Seed_2", "Caverns_Seed_3", "Caverns_Seed_4"]
+      }
+    ]
+  },
+  {
+    "region": "Act III",
+    "zone": [
+      {
+        "zoneName": "The Slums",
+        "zoneSeed": []
+      },
+      {
+        "zoneName": "The Crematorium",
+        "zoneSeed": ["Crematorium_Seed_1","Crematorium_Seed_2","Crematorium_Seed_3","Crematorium_Seed_4","Crematorium_Seed_5"]
+      },
+      {
+        "zoneName": "The Sewers",
+        "zoneSeed": ["Sewers_Seed_1"]
+      },
+      {
+        "zoneName": "The Marketplace",
+        "zoneSeed": ["Marketplace_Seed_1","Marketplace_Seed_2","Marketplace_Seed_3","Marketplace_Seed_4","Marketplace_Seed_5"]
+      },
+      {
+        "zoneName": "The Battlefront",
+        "zoneSeed": ["Battlefront_Seed_1","Battlefront_Seed_2"]
+      },
+      {
+        "zoneName": "The Solaris Temple Level 1",
+        "zoneSeed": ["Solaris Temple Level 1_Seed_1","Solaris Temple Level 1_Seed_2","Solaris Temple Level 1_Seed_3"]
+      },
+      {
+        "zoneName": "The Solaris Temple Level 2",
+        "zoneSeed": ["Solaris Temple Level 2_Seed_1","Solaris Temple Level 2_Seed_2","Solaris Temple Level 2_Seed_3"]
+      },
+      {
+        "zoneName": "The Docks",
+        "zoneSeed": ["Docks_Seed_1","Docks_Seed_2","Docks_Seed_3","Docks_Seed_4"]
+      },
+      {
+        "zoneName": "The Ebony Barracks",
+        "zoneSeed": ["Ebony Barracks_Seed_1", "Ebony Barracks_Seed_2"]
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 1",
+        "zoneSeed": ["Lunaris Temple Level 1_Seed_1","Lunaris Temple Level 1_Seed_2"]
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 2",
+        "zoneSeed": ["Lunaris Temple Level 2_Seed_1", "Lunaris Temple Level 2_Seed_2"]
+      },
+      {
+        "zoneName": "The Imperial Gardens",
+        "zoneSeed": ["Imperial Gardens_Seed_1"]
+      }
+    ]
+  },
+  {
+    "region": "Act IV",
+    "zone": [
+      {
+        "zoneName": "The Dried Lake",
+        "zoneSeed": ["Dried Lake_Seed_1","Dried Lake_Seed_2","Dried Lake_Seed_3","Dried Lake_Seed_4"]
+      },
+      {
+        "zoneName": "The Mines 1",
+        "zoneSeed": ["Mines Level 1_Seed_1", "Mines Level 1_Seed_2"]
+      },
+      {
+        "zoneName": "The Mines 2",
+        "zoneSeed": ["Mines Level 2_Seed_1", "Mines Level 2_Seed_2"]
+      },
+      {
+        "zoneName": "The Crystal Veins",
+        "zoneSeed": ["Crystal Veins_Seed_1", "Crystal Veins_Seed_2", "Crystal Veins_Seed_3"]
+      },
+      {
+        "zoneName": "The Kaom's Dream",
+        "zoneSeed": ["Kaom_s Dream_Seed_1"]
+      },
+      {
+        "zoneName": "The Kaom's Stronghold",
+        "zoneSeed": ["Kaom_s Stronghold_Seed_1"]
+      },
+      {
+        "zoneName": "The Belly of the Beast Level 1",
+        "zoneSeed": ["Belly of the Beast Level 1_Seed_1","Belly of the Beast Level 1_Seed_2","Belly of the Beast Level 1_Seed_3", "Belly of the Beast Level 1_Seed_4"]
+      },
+      {
+        "zoneName": "The Belly of the Beast Level 2",
+        "zoneSeed": ["Belly of the Beast Level 2_Seed_1", "Belly of the Beast Level 2_Seed_2"]
+      },
+      {
+        "zoneName": "The Harvest",
+        "zoneSeed": ["Harvest_Seed_1"]
+      },
+      {
+        "zoneName": "The Ascent",
+        "zoneSeed": ["Ascent_Seed_1"]
+      }
+    ]
+  },
+  {
+    "region": "Act V",
+    "zone": [
+      {
+        "zoneName": "The Slave Pens",
+        "zoneSeed": ["Slave Pens_Seed_1", "Slave Pens_Seed_2"]
+      },
+      {
+        "zoneName": "The Control Blocks",
+        "zoneSeed": ["Control Blocks_Seed_1"]
+      },
+      {
+        "zoneName": "The Oriath Square",
+        "zoneSeed": ["Oriath Square_Seed_1"]
+      },
+      {
+        "zoneName": "The Templar Courts",
+        "zoneSeed": ["Templar Courts_Seed_1"]
+      },
+      {
+        "zoneName": "The Chamber of Innocence",
+        "zoneSeed": ["Chamber of Innocence_Seed_1"]
+      },
+      {
+        "zoneName": "The Torched Courts",
+        "zoneSeed": ["Torched Courts_Seed_1"]
+      },
+      {
+        "zoneName": "The Ruined Square",
+        "zoneSeed": ["Ruined Square_Seed_1"]
+      },
+      {
+        "zoneName": "The Ossuary",
+        "zoneSeed": ["Ossuary_Seed_1"]
+      },
+      {
+        "zoneName": "The Reliquary",
+        "zoneSeed": []
+      }
+    ]
+  },
+  {
+    "region": "Act VI",
+    "zone": [
+      {
+        "zoneName": "The Coast",
+        "zoneSeed": ["Coast_Seed_1","Coast_Seed_2","Coast_Seed_3","Coast_Seed_4"]
+      },
+      {
+        "zoneName": "The Mud Flats",
+        "zoneSeed": ["Mud Flats_Seed_1", "Mud Flats_Seed_2"]
+      },
+      {
+        "zoneName": "The Karui Fortress",
+        "zoneSeed": ["Karui Fortress_Seed_1"]
+      },
+      {
+        "zoneName": "The Ridge",
+        "zoneSeed": ["Ridge_Seed_1", "Ridge_Seed_2"]
+      },
+      {
+        "zoneName": "The Lower Prison",
+        "zoneSeed": ["Lower Prison_Seed_1","Lower Prison_Seed_2","Lower Prison_Seed_3","Lower Prison_Seed_4"]
+      },
+      {
+        "zoneName": "The Prisoner's Gate",
+        "zoneSeed": ["Prisoner_s Gate_Seed_1", "Prisoner_s Gate_Seed_2", "Prisoner_s Gate_Seed_3"]
+      },
+      {
+        "zoneName": "The Riverways",
+        "zoneSeed": ["Riverways_Seed_1"]
+      },
+      {
+        "zoneName": "The Cavern of Anger",
+        "zoneSeed": ["Cavern of Anger_Seed_1", "Cavern of Anger_Seed_2"]
+      },
+      {
+        "zoneName": "The Brine King's Reef",
+        "zoneSeed": ["Brine King_s Reef_Seed_1", "Brine King_s Reef_Seed_2"]
+      }
+    ]
+  },
+  {
+    "region": "Act VII",
+    "zone": [
+      {
+        "zoneName": "The Crossroads",
+        "zoneSeed": ["Crossroads_Seed_1"]
+      },
+      {
+        "zoneName": "The Crypt 1",
+        "zoneSeed": ["Crypt 1_Seed_1", "Crypt 1_Seed_2", "Crypt 1_Seed_3"]
+      },
+      {
+        "zoneName": "The Crypt 2",
+        "zoneSeed": ["Crypt 2_Seed_1","Crypt 2_Seed_2","Crypt 2_Seed_3"]
+      },
+      {
+        "zoneName": "The Chamber of Sins Level 1",
+        "zoneSeed": ["Chamber of Sins 1_Seed_1", "Chamber of Sins 1_Seed_2", "Chamber of Sins 1_Seed_3"]
+      },
+      {
+        "zoneName": "The Chamber of Sins Level 2",
+        "zoneSeed": ["Chamber of Sins 2_Seed_1"]
+      },
+      {
+        "zoneName": "The Den",
+        "zoneSeed": ["Den_Seed_1", "Den_Seed_2", "Den_Seed_3", "Den_Seed_4"]
+      },
+      {
+        "zoneName": "The Vaal City",
+        "zoneSeed": ["Vaal City_Seed_1"]
+      }
+    ]
+  },
+  {
+    "region": "Act VIII",
+    "zone": [
+      {
+        "zoneName": "The Toxic Conduits",
+        "zoneSeed": ["Toxic Conduits_Seed_1","Toxic Conduits_Seed_2"]
+      },
+      {
+        "zoneName": "The Doedre's Cesspool",
+        "zoneSeed": ["Doedre_s Cesspool_Seed_1","Doedre_s Cesspool_Seed_2","Doedre_s Cesspool_Seed_3"]
+      },
+      {
+        "zoneName": "The Quay",
+        "zoneSeed": ["Quay_Seed_1","Quay_Seed_2"]
+      },
+      {
+        "zoneName": "The Grain Gate",
+        "zoneSeed": ["Grain Gate_Seed_1","Grain Gate_Seed_2"]
+      },
+      {
+        "zoneName": "The Solaris Temple Level 1",
+        "zoneSeed": ["Solaris Temple 1_Seed_1","Solaris Temple 1_Seed_2"]
+      },
+      {
+        "zoneName": "The Solaris Temple Level 2",
+        "zoneSeed": ["Solaris Temple 2_Seed_1","Solaris Temple 2_Seed_2"]
+      },
+      {
+        "zoneName": "The Bath House",
+        "zoneSeed": ["Bath House_Seed_1","Bath House_Seed_2"]
+      },
+      {
+        "zoneName": "The Lunaris Concourse",
+        "zoneSeed": ["Lunaris Concourse_Seed_1","Lunaris Concourse_Seed_2"]
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 1",
+        "zoneSeed": ["Lunaris Temple 1_Seed_1","Lunaris Temple 1_Seed_2","Lunaris Temple 1_Seed_3"]
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 2",
+        "zoneSeed": ["Lunaris Temple 2_Seed_1","Lunaris Temple 2_Seed_2"]
+      }
+    ]
+  },
+  {
+    "region": "Act IX",
+    "zone": [
+      {
+        "zoneName": "The Descent",
+        "zoneSeed": ["Descent_Seed_1"]
+      },
+      {
+        "zoneName": "The Vastiri Desert",
+        "zoneSeed": ["Vastiri Desert_Seed_1"]
+      },
+      {
+        "zoneName": "The Oasis",
+        "zoneSeed": ["Oasis_Seed_1", "Oasis_Seed_2"]
+      },
+      {
+        "zoneName": "The Foothills",
+        "zoneSeed": ["Foothills_Seed_1"]
+      },
+      {
+        "zoneName": "The Tunnel",
+        "zoneSeed": ["Tunnel_Seed_1", "Tunnel_Seed_2", "Tunnel_Seed_3"]
+      },
+      {
+        "zoneName": "The Quarry",
+        "zoneSeed": ["Quarry_Seed_1"]
+      },
+      {
+        "zoneName": "The Refinery",
+        "zoneSeed": ["Refinery_Seed_1"]
+      },
+      {
+        "zoneName": "The Belly of the Beast",
+        "zoneSeed": ["Belly of the Beast_Seed_1","Belly of the Beast_Seed_2","Belly of the Beast_Seed_3"]
+      }
+    ]
+  },
+  {
+    "region": "Act VII",
+    "zone": [
+      {
+        "zoneName": "The Ravaged Square",
+        "zoneSeed": ["Ravaged Square_Seed_1"]
+      }
+    ]
+  }
+]
