@@ -12,13 +12,14 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Win32;
 using OverlayJson;
 
 namespace PoeDirectionHelper
 {
     public partial class MainForm : Form
     {
-        readonly string logPath = @"C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt";
+        string logPath = null;
 
         FileStream fileStream;
         StreamReader logStream;
@@ -29,11 +30,17 @@ namespace PoeDirectionHelper
         private bool dragging = false;
         private Point pointClicked;
         private bool partTwo = false;
-
+        string zoneName = null;
 
         public MainForm()
         {
             currentDirectory = Directory.GetCurrentDirectory();
+
+            logPath = (string)Registry.GetValue(@"HKEY_CURRENT_USER\Software\GrindingGearGames\Path of Exile", "InstallLocation", null);
+            logPath = String.Format("{0}\\logs\\Client.txt", logPath);
+
+            if (logPath == null)
+                MessageBox.Show("Could not find Path of Exile folder.");
 
             // Initialize the app 
             InitializeComponent();
@@ -43,6 +50,7 @@ namespace PoeDirectionHelper
             // Define the regex to scan ...
             zoneEntered = new Regex(@"You have entered (.*)\.", RegexOptions.IgnoreCase);
             zoneWatcher.Enabled = true;
+
 
         }
                 
@@ -87,7 +95,6 @@ namespace PoeDirectionHelper
         {
             // Read new line every 100 ms and detect zone...
             string line = logStream.ReadToEnd();
-            string zoneName = null;
             string image = null;
 
             Match m = zoneEntered.Match(line);
@@ -114,7 +121,6 @@ namespace PoeDirectionHelper
                         seed_no++;
                     }
                 }
-
             }
 
         }
@@ -154,7 +160,26 @@ namespace PoeDirectionHelper
         private void overlayMap_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             partTwo = !partTwo;
-            Console.WriteLine("Part two : {0}", partTwo.ToString());
+            if (partTwo) label1.Text = "P2";
+            else label1.Text = "P1";
+
+            // Redraw map 
+            ClearMap();
+
+            string image = null;
+            var seedList = FindZoneName(zoneName);
+            if (seedList.Item2.Length > 0)
+            {
+                var seed_no = 0;
+                foreach (var seed in seedList.Item2)
+                {
+
+                    image = String.Format("{0}\\Overlays\\{1}\\{2}.png", currentDirectory, seedList.Item1, seed);
+                    DrawMap(image, seed_no);
+
+                    seed_no++;
+                }
+            }
         }
 
         private void overlayMap_MouseMove(object sender, MouseEventArgs e)
