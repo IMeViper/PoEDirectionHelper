@@ -23,6 +23,9 @@
 
         [JsonProperty("zoneSeed")]
         public object[] ZoneSeed { get; set; }
+
+        [JsonProperty("note")]
+        public string Note { get; set; }
     }
 
     public partial class OverlayData
