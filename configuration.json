@@ -1,0 +1,485 @@
+[
+  { "clientLogFile": "C:\\Program Files (x86)\\Grinding Gear Games\\Path of Exile\\logs\\Client.txt" },
+  {
+    "region": "Act I",
+    "zone": [
+      {
+        "zoneName": "The Coast",
+        "zoneSeed": ["Coast_Seed_1","Coast_Seed_2","Coast_Seed_3"],
+        "note": "Stick to the right side, following the wall."
+      },
+      {
+        "zoneName": "The Mud Flats",
+        "zoneSeed": ["Mud Flats_Seed_1", "Mud Flats_Seed_2"],
+        "note": "Circles indicate the area in which the quest items are grouped. Little rivers connect the three items."
+      },
+      {
+        "zoneName": "The Submerged Passage",
+        "zoneSeed": ["Submerged Passage_Seed_1", "Submerged Passage_Seed_2", "Submerged Passage_Seed_3"],
+        "name": "Find the bridge and place a portal."
+      },
+      {
+        "zoneName": "The Ledge",
+        "zoneSeed": [],
+        "note": "Go to the town at the WP, take the portal and find the Flooded Depths."
+      },
+      {
+        "zoneName": "The Flooded Depths",
+        "zoneSeed": ["Flooded Depths_Seed_1", "Flooded Depths_Seed_2", "Flooded Depths_Seed_3"],
+        "note": "Go to town for rewards after killing the Deep Dweller."
+      },
+      {
+        "zoneName": "The Climb",
+        "zoneSeed": ["Climb_Seed_1", "Climb_Seed_2"],
+        "note": "Run top right and free Navali."
+      },
+      {
+        "zoneName": "The Lower Prison",
+        "zoneSeed": ["Lower Prison_Seed_1", "Lower Prison_Seed_2", "Lower Prison_Seed_3", "Lower Prison_Seed_4"],
+        "note": "Go right to find the exit, there is a trial in this zone that you can do later thanks to the WP."
+      },
+      {
+        "zoneName": "The Upper Prison",
+        "zoneSeed": ["Upper Prison_Seed_1", "Upper Prison_Seed_2", "Upper Prison_Seed_3", "Upper Prison_Seed_4", "Upper Prison_Seed_5"],
+        "note": "Log out after you kill Brutus."
+      },
+      {
+        "zoneName": "The Prisoner's Gate",
+        "zoneSeed": ["Prisoner_s Gate_Seed_1", "Prisoner_s Gate_Seed_2", "Prisoner_s Gate_Seed_3"],
+        "note": "Look for the side of the road that has the ledge down, usually on the right side."
+      },
+      {
+        "zoneName": "The Ship Graveyard",
+        "zoneSeed": ["Ship Graveyard_Seed_1", "Ship Graveyard_Seed_2", "Ship Graveyard_Seed_3", "Ship Graveyard_Seed_4"],
+        "note": "Look for WP first, then find Fairgraves, and move away from the plateau, generally up or down."
+      },
+      {
+        "zoneName": "The Cavern of Wrath",
+        "zoneSeed": ["Cavern of Wrath_Seed_1", "Cavern of Wrath_Seed_2", "Cavern of Wrath_Seed_3"],
+        "note": "At WP, port back to The Ship Graveyard to either find the cave or hand in Allflame and get rewards."
+      },
+      {
+        "zoneName": "The Cavern of Anger",
+        "zoneSeed": ["Cavern of Anger_Seed_1", "Cavern of Anger_Seed_2"],
+        "note": "Often bottom right, you can follow the spirits, if you see piles of gold you’re close to Merveil."
+      }
+    ]
+  },
+  {
+    "region": "Act II",
+    "zone": [
+      {
+        "zoneName": "The Chamber of Sins Level 1",
+        "zoneSeed": ["Chamber of Sins Level 1_Seed_1", "Chamber of Sins Level 1_Seed_2", "Chamber of Sins Level 1_Seed_3"],
+        "note": "Go to the center, always left or right. Activate WP and follow the hallway next to the WP."
+      },
+      {
+        "zoneName": "The Chamber of Sins Level 2",
+        "zoneSeed": ["Chamber of Sins Level 2_Seed_1"],
+        "note": "Always go up and right, do the trial in top left or do it later when you need it and are faster."
+      },
+      {
+        "zoneName": "The Weaver's Chambers",
+        "zoneSeed": ["Weaver_s Chambers_Seed_1", "Weaver_s Chambers_Seed_2", "Weaver_s Chambers_Seed_3"],
+        "note": "Go left when the left path spawns, otherwise loop around right side. Kill Weaver for the reward, then claim The Way Forward skillpoint."
+      },
+      {
+        "zoneName": "The Wetlands",
+        "zoneSeed": ["Wetlands_Seed_1", "Wetlands_Seed_2", "Wetlands_Seed_3"],
+        "note": "Oak then go to the left side until the WP with the passage next to it. The side at which you enter Oak’s fort means WP is on the opposite side of the fort."
+      },
+      {
+        "zoneName": "The Vaal Ruins",
+        "zoneSeed": ["Vaal Ruins_Seed_1", "Vaal Ruins_Seed_2", "Vaal Ruins_Seed_3"],
+        "note": "Try to determine the direction, then zig and zag accordingly through the ruins."
+      },
+      {
+        "zoneName": "The Caverns",
+        "zoneSeed": ["Caverns_Seed_1", "Caverns_Seed_2", "Caverns_Seed_3", "Caverns_Seed_4"]
+      }
+    ]
+  },
+  {
+    "region": "Act III",
+    "zone": [
+      {
+        "zoneName": "The Slums",
+        "zoneSeed": ["Slums_Seed_1", "Slums_Seed_2", "Slums_Seed_3", "Slums_Seed_4"],
+        "note": "Find the grates to the sewers, then take the stairs down, follow it until you have stairs up, then it’s fairly linear."
+      },
+      {
+        "zoneName": "The Crematorium",
+        "zoneSeed": ["Crematorium_Seed_1","Crematorium_Seed_2","Crematorium_Seed_3","Crematorium_Seed_4","Crematorium_Seed_5"],
+        "note": "Going left generally has a higher chance of success. There is a trial here."
+      },
+      {
+        "zoneName": "The Sewers",
+        "zoneSeed": ["Sewers_Seed_1"]
+      },
+      {
+        "zoneName": "The Marketplace",
+        "zoneSeed": ["Marketplace_Seed_1","Marketplace_Seed_2","Marketplace_Seed_3","Marketplace_Seed_4","Marketplace_Seed_5"],
+        "note": "Usually up and right, go through the statue hall, check the WP (trial nearby it) and move on to find the exit."
+      },
+      {
+        "zoneName": "The Battlefront",
+        "zoneSeed": ["Battlefront_Seed_1","Battlefront_Seed_2"],
+        "note": "First image is to spool and docks, second to Solaris."
+      },
+      {
+        "zoneName": "The Solaris Temple Level 1",
+        "zoneSeed": ["Solaris Temple Level 1_Seed_1","Solaris Temple Level 1_Seed_2","Solaris Temple Level 1_Seed_3"],
+        "note":"Follow the carpet until the exit."
+      },
+      {
+        "zoneName": "The Solaris Temple Level 2",
+        "zoneSeed": ["Solaris Temple Level 2_Seed_1","Solaris Temple Level 2_Seed_2","Solaris Temple Level 2_Seed_3"],
+        "note":"Follow the carpet until the exit."
+      },
+      {
+        "zoneName": "The Docks",
+        "zoneSeed": ["Docks_Seed_1","Docks_Seed_2","Docks_Seed_3","Docks_Seed_4"],
+        "note": "Usually left side, sulphite is down some stairs."
+      },
+      {
+        "zoneName": "The Ebony Barracks",
+        "zoneSeed": ["Ebony Barracks_Seed_1", "Ebony Barracks_Seed_2"],
+        "note":"First image is to Lunaris, second to The Sceptre of God."
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 1",
+        "zoneSeed": ["Lunaris Temple Level 1_Seed_1","Lunaris Temple Level 1_Seed_2"],
+        "note": "Follow the carpet, don’t forget WP."
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 2",
+        "zoneSeed": ["Lunaris Temple Level 2_Seed_1", "Lunaris Temple Level 2_Seed_2"]
+      },
+      {
+        "zoneName": "The Imperial Gardens",
+        "zoneSeed": ["Imperial Gardens_Seed_1"],
+        "note":"Follow the road until the end."
+      },
+      {
+        "zoneName": "The Sceptre of God",
+        "zoneSeed": [],
+        "note": "The exits can often be found by travelling diagonally."
+      }
+    ]
+  },
+  {
+    "region": "Act IV",
+    "zone": [
+      {
+        "zoneName": "The Dried Lake",
+        "zoneSeed": ["Dried Lake_Seed_1","Dried Lake_Seed_2","Dried Lake_Seed_3","Dried Lake_Seed_4"],
+        "note": "Kill Voll on one of the three spawns."
+      },
+      {
+        "zoneName": "The Mines 1",
+        "zoneSeed": ["Mines Level 1_Seed_1", "Mines Level 1_Seed_2"],
+        "note": "Fairly linear, exit is usually in top left corner."
+      },
+      {
+        "zoneName": "The Mines 2",
+        "zoneSeed": ["Mines Level 2_Seed_1", "Mines Level 2_Seed_2"],
+        "note": "Varied layout, and many dead ends and you should look for the spirit too, if you found the exit before the spirit, leave a portal and continue."
+      },
+      {
+        "zoneName": "The Crystal Veins",
+        "zoneSeed": ["Crystal Veins_Seed_1", "Crystal Veins_Seed_2", "Crystal Veins_Seed_3"],
+        "note": "Loop around bottom right to go to the top left end. Use WP to go to Highgate if you made a portal to search for the spirit."
+      },
+      {
+        "zoneName": "The Kaom's Dream",
+        "zoneSeed": ["Kaom_s Dream_Seed_1"],
+        "note": "Look for passages and bridges, follow those."
+      },
+      {
+        "zoneName": "The Kaom's Stronghold",
+        "zoneSeed": ["Kaom_s Stronghold_Seed_1"],
+        "note": "Look for stairs and bridges, follow those."
+      },
+      {
+        "zoneName": "The Belly of the Beast Level 1",
+        "zoneSeed": ["Belly of the Beast Level 1_Seed_1","Belly of the Beast Level 1_Seed_2","Belly of the Beast Level 1_Seed_3", "Belly of the Beast Level 1_Seed_4"],
+        "note": "Aim for top left, many dead ends."
+      },
+      {
+        "zoneName": "The Belly of the Beast Level 2",
+        "zoneSeed": ["Belly of the Beast Level 2_Seed_1", "Belly of the Beast Level 2_Seed_2"],
+        "note": "Aim for top left, many dead ends."
+      },
+      {
+        "zoneName": "The Harvest",
+        "zoneSeed": ["Harvest_Seed_1"],
+        "note": "Always one boss on right side, two on the left, random boss position, WP is number 1, bosses are 2, 3 and 4."
+      },
+      {
+        "zoneName": "The Ascent",
+        "zoneSeed": ["Ascent_Seed_1"],
+        "note": "Go up and right, cross the bridge and follow the road to a small passage to the exit."
+      }
+    ]
+  },
+  {
+    "region": "Act V",
+    "zone": [
+      {
+        "zoneName": "The Slave Pens",
+        "zoneSeed": ["Slave Pens_Seed_1", "Slave Pens_Seed_2"],
+        "note": "Go all the way down, then left."
+      },
+      {
+        "zoneName": "The Control Blocks",
+        "zoneSeed": ["Control Blocks_Seed_1"],
+        "note": "Go top left for the miasmeter, then up and right."
+      },
+      {
+        "zoneName": "The Oriath Square",
+        "zoneSeed": ["Oriath Square_Seed_1"],
+        "note": "Go top right until you cross the bridge, then down."
+      },
+      {
+        "zoneName": "The Templar Courts",
+        "zoneSeed": ["Templar Courts_Seed_1"],
+        "note": "Loop around clockwise."
+      },
+      {
+        "zoneName": "The Chamber of Innocence",
+        "zoneSeed": ["Chamber of Innocence_Seed_1"],
+        "note": "Go up and left, and spiral counterclockwise."
+      },
+      {
+        "zoneName": "The Torched Courts",
+        "zoneSeed": ["Torched Courts_Seed_1"],
+        "note": "Loop around counterclockwise."
+      },
+      {
+        "zoneName": "The Ruined Square",
+        "zoneSeed": ["Ruined Square_Seed_1"],
+        "note": "One layout, multiple stops, in following steps."
+      },
+      {
+        "zoneName": "The Ossuary",
+        "zoneSeed": ["Ossuary_Seed_1"],
+        "note": "Loop around clockwise."
+      },
+      {
+        "zoneName": "The Reliquary",
+        "zoneSeed": ["Reliquary_Seed_1"],
+        "note": "Find multiple quest items in corners of the zone."
+      }
+    ]
+  },
+  {
+    "region": "Act VI",
+    "zone": [
+      {
+        "zoneName": "The Coast",
+        "zoneSeed": ["Coast_Seed_1","Coast_Seed_2","Coast_Seed_3","Coast_Seed_4"],
+        "note": "Go to the right side of the zone, and go to the top right corner of the zone. You might need to go up or down a bit."
+      },
+      {
+        "zoneName": "The Mud Flats",
+        "zoneSeed": ["Mud Flats_Seed_1", "Mud Flats_Seed_2"],
+        "note": "Kill the Dishonoured Queen (1) on the right side to get the key to open the gate to the next zone (2) on the left side."
+      },
+      {
+        "zoneName": "The Karui Fortress",
+        "zoneSeed": ["Karui Fortress_Seed_1"],
+        "note": "Follow the right hand side if you feel ready for Tukohama, capped fire resistance is suggested, alongside a good life pool. If you wish to take on Tukohama for the passive point and pantheon power later, follow the left hand side."
+      },
+      {
+        "zoneName": "The Ridge",
+        "zoneSeed": ["Ridge_Seed_1", "Ridge_Seed_2"],
+        "note": "Follow the path until you can go right, then follow that path until you have a long path up left."
+      },
+      {
+        "zoneName": "The Lower Prison",
+        "zoneSeed": ["Lower Prison_Seed_1","Lower Prison_Seed_2","Lower Prison_Seed_3","Lower Prison_Seed_4"],
+        "note": "You usually want to go down or left towards the exit, there is a trial here, but it is fairly close to the WP if you want to do it later."
+      },
+      {
+        "zoneName": "The Prisoner's Gate",
+        "zoneSeed": ["Prisoner_s Gate_Seed_1", "Prisoner_s Gate_Seed_2", "Prisoner_s Gate_Seed_3"],
+        "note": "If you want to fight the Aberrath, go down the side of the road that has the cliff, otherwise follow the road into the next area."
+      },
+      {
+        "zoneName": "The Riverways",
+        "zoneSeed": ["Riverways_Seed_1"],
+        "note": "Follow the road and when you reach the encampment, go down and right. If you want to kill Ryslatha, follow the path up at the WP."
+      },
+      {
+        "zoneName": "The Cavern of Anger",
+        "zoneSeed": ["Cavern of Anger_Seed_1", "Cavern of Anger_Seed_2"],
+        "note": "Don’t forget the black flag upon entering this zone. Head down then up first, then go right, the exit can be up or down."
+      },
+      {
+        "zoneName": "The Brine King's Reef",
+        "zoneSeed": ["Brine King_s Reef_Seed_1", "Brine King_s Reef_Seed_2"],
+        "note": "Follow the left hand shoreline to the boss arena. Capped cold and lightning resistance is strongly recommended. Physical mitigation is very useful too."
+      }
+    ]
+  },
+  {
+    "region": "Act VII",
+    "zone": [
+      {
+        "zoneName": "The Crossroads",
+        "zoneSeed": ["Crossroads_Seed_1"],
+        "note": "Don’t forget the WP, this zone leads to two new zones. Go to The Fellshrine Ruins (1) first."
+      },
+      {
+        "zoneName": "The Crypt 1",
+        "zoneSeed": ["Crypt 1_Seed_1", "Crypt 1_Seed_2", "Crypt 1_Seed_3"],
+        "note": "There is a trial in this zone. Open the sarcophagus for the exit."
+      },
+      {
+        "zoneName": "The Crypt 2",
+        "zoneSeed": ["Crypt 2_Seed_1","Crypt 2_Seed_2","Crypt 2_Seed_3"]
+      },
+      {
+        "zoneName": "The Chamber of Sins Level 1",
+        "zoneSeed": ["Chamber of Sins 1_Seed_1", "Chamber of Sins 1_Seed_2", "Chamber of Sins 1_Seed_3"],
+        "note": "This is works just like in act two, loop around to the center, then activate the WP."
+      },
+      {
+        "zoneName": "The Chamber of Sins Level 2",
+        "zoneSeed": ["Chamber of Sins 2_Seed_1"],
+        "note": "Trial on the left side. Go to the top right side, until you find the narrow long hallway."
+      },
+      {
+        "zoneName": "The Den",
+        "zoneSeed": ["Den_Seed_1", "Den_Seed_2", "Den_Seed_3", "Den_Seed_4"],
+        "note": "Fairly simple, you will usually want to go to the top left or right to find the exit to The Ashen Fields."
+      },
+      {
+        "zoneName": "The Vaal City",
+        "zoneSeed": ["Vaal City_Seed_1"],
+        "note": "Find and follow the thick walls to guide you to the exit."
+      }
+    ]
+  },
+  {
+    "region": "Act VIII",
+    "zone": [
+      {
+        "zoneName": "The Toxic Conduits",
+        "zoneSeed": ["Toxic Conduits_Seed_1","Toxic Conduits_Seed_2"],
+        "note": "Watch the black paint on the floor as you enter the zone to see in which direction it points you."
+      },
+      {
+        "zoneName": "The Doedre's Cesspool",
+        "zoneSeed": ["Doedre_s Cesspool_Seed_1","Doedre_s Cesspool_Seed_2","Doedre_s Cesspool_Seed_3"],
+        "note": "Try to find the path that doesn’t have a dead end, this should lead you all the way to the exit."
+      },
+      {
+        "zoneName": "The Quay",
+        "zoneSeed": ["Quay_Seed_1","Quay_Seed_2"],
+        "note": "Pick up the quest item at (1), to use in the arena (2), then leave the arena and find the exit at (3)."
+      },
+      {
+        "zoneName": "The Grain Gate",
+        "zoneSeed": ["Grain Gate_Seed_1","Grain Gate_Seed_2"],
+        "note": "This zone has many buildings, only enter and leave buildings through openings that have a guard’s corpse next to it, they lead the way, kill the gemlings."
+      },
+      {
+        "zoneName": "The Solaris Temple Level 1",
+        "zoneSeed": ["Solaris Temple 1_Seed_1","Solaris Temple 1_Seed_2"]
+      },
+      {
+        "zoneName": "The Solaris Temple Level 2",
+        "zoneSeed": ["Solaris Temple 2_Seed_1","Solaris Temple 2_Seed_2"]
+      },
+      {
+        "zoneName": "The Bath House",
+        "zoneSeed": ["Bath House_Seed_1","Bath House_Seed_2"]
+      },
+      {
+        "zoneName": "The Lunaris Concourse",
+        "zoneSeed": ["Lunaris Concourse_Seed_1","Lunaris Concourse_Seed_2"],
+        "note": "Go up and right for the WP, then up and left for the entrance."
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 1",
+        "zoneSeed": ["Lunaris Temple 1_Seed_1","Lunaris Temple 1_Seed_2","Lunaris Temple 1_Seed_3"],
+        "note": "Follow the carpets until the end, activate the WP."
+      },
+      {
+        "zoneName": "The Lunaris Temple Level 2",
+        "zoneSeed": ["Lunaris Temple 2_Seed_1","Lunaris Temple 2_Seed_2"],
+        "note":"Look for staircases and go up these, when you reach the larger area again, look for the vases on the opposite wall and pick the side where there is only one."
+      }
+    ]
+  },
+  {
+    "region": "Act IX",
+    "zone": [
+      {
+        "zoneName": "The Descent",
+        "zoneSeed": ["Descent_Seed_1"],
+        "note": "Go up right to the supply hoist, then down left to another hoist, then up right to The Vastiri Desert."
+      },
+      {
+        "zoneName": "The Vastiri Desert",
+        "zoneSeed": ["Vastiri Desert_Seed_1"],
+        "note": "Go right to the WP, then top left (1) for the Foothills. Kill Shakari ? Go right to (2) for the Oasis, then get the quest item in town and enter the zone."
+      },
+      {
+        "zoneName": "The Oasis",
+        "zoneSeed": ["Oasis_Seed_1", "Oasis_Seed_2"],
+        "note": "Left or right hand wall follow, depending on bottom or top being the dead end at the entrance."
+      },
+      {
+        "zoneName": "The Foothills",
+        "zoneSeed": ["Foothills_Seed_1"],
+        "note": "Head up to find the WP, go to (1) to get the quest item in The Boiling Lake, then to (2) for The Tunnel to continue the story."
+      },
+      {
+        "zoneName": "The Tunnel",
+        "zoneSeed": ["Tunnel_Seed_1", "Tunnel_Seed_2", "Tunnel_Seed_3"],
+        "note": "There is a trial in this zone. Go up left, if you come across the WP you’re on the right path."
+      },
+      {
+        "zoneName": "The Quarry",
+        "zoneSeed": ["Quarry_Seed_1"],
+        "note": "Activate the WP at the center, go to Shrine of the Winds first (2), then the refinery (1)."
+      },
+      {
+        "zoneName": "The Refinery",
+        "zoneSeed": ["Refinery_Seed_1"],
+        "note": "Follow the cart tracks to the building top right for the quest boss. Portal to town and WP back to The Quarry."
+      },
+      {
+        "zoneName": "The Belly of the Beast",
+        "zoneSeed": ["Belly of the Beast_Seed_1","Belly of the Beast_Seed_2","Belly of the Beast_Seed_3"],
+        "note": "Reach the top left part of the zone in The Belly of The Beast, this leads to The Rotting core which is static, and go top left again, then you have The Black Heart."
+      },
+      {
+        "zoneName": "The Belly of the Beast",
+        "zoneSeed": [],
+        "note": "Trial here. Left hand follow for quest item and trial."
+      }
+    ]
+  },
+  {
+    "region": "Act X",
+    "zone": [
+      {
+        "zoneName": "The Ravaged Square",
+        "zoneSeed": ["Ravaged Square_Seed_1"],
+        "note": "Left hand follow, skip the 1st opening, take the 2nd and take bridge (red)."
+      },
+      {
+        "zoneName": "The Torched Courts",
+        "zoneSeed": [],
+        "note": "Left hand wall-follow."
+      },{
+        "zoneName": "The Desecrated Chambers",
+        "zoneSeed": [],
+        "note": "Right hand follow until you come to a crossroads with 4 pillars, then go straight and up."
+      }
+    ]
+  }
+]

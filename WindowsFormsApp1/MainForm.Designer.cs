@@ -66,7 +66,7 @@
             this.noteLabel.BackColor = System.Drawing.Color.Black;
             this.noteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.noteLabel.ForeColor = System.Drawing.Color.Silver;
-            this.noteLabel.Location = new System.Drawing.Point(0, 85);
+            this.noteLabel.Location = new System.Drawing.Point(0, 93);
             this.noteLabel.Margin = new System.Windows.Forms.Padding(0);
             this.noteLabel.Name = "noteLabel";
             this.noteLabel.Size = new System.Drawing.Size(128, 13);
@@ -82,7 +82,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(128, 98);
+            this.ClientSize = new System.Drawing.Size(128, 114);
             this.Controls.Add(this.noteLabel);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
@@ -93,6 +93,7 @@
             this.Opacity = 0.8D;
             this.Text = "PoEDirectionHelper";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

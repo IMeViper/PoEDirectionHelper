@@ -15,7 +15,7 @@ namespace PoeDirectionHelper
         FileStream fileStream;
         StreamReader logStream;
         Regex zoneEntered;
-        OverlayData[] zoneData;
+        OverlayData[] jsonData;
         string currentDirectory;
         PictureBox[] listOfPictures = new PictureBox[10];
         private bool dragging = false;
@@ -25,57 +25,72 @@ namespace PoeDirectionHelper
 
         public MainForm()
         {
+
             currentDirectory = Directory.GetCurrentDirectory();
+            jsonData = OverlayData.FromJson(File.ReadAllText(String.Format("{0}\\{1}", currentDirectory, "configuration.json")));
 
-            logPath = (string)Registry.GetValue(@"HKEY_CURRENT_USER\Software\GrindingGearGames\Path of Exile", "InstallLocation", null);
-            logPath = String.Format("{0}\\logs\\Client.txt", logPath);
-
-            if (logPath == null)
-                MessageBox.Show("Could not find Path of Exile folder.");
+            logPath = jsonData[0].clientLogFile.ToString();
+            MessageBox.Show("Reading client.log from : " + logPath);
 
             // Initialize the app 
             InitializeComponent();
             InitializeStream();
-            InitializeJsonOverlay();
 
             // Define the regex to scan ...
             zoneEntered = new Regex(@"You have entered (.*)\.", RegexOptions.IgnoreCase);
-            zoneWatcher.Enabled = true;
-
-
-        }
-                
-        private void InitializeJsonOverlay()
-        {
-            zoneData = OverlayData.FromJson(File.ReadAllText(String.Format("{0}\\Overlays\\{1}", currentDirectory, "overlay.json")));
+            
         }
 
         private void InitializeStream()
         {
-            fileStream = File.Open(logPath, mode: FileMode.Open, access: FileAccess.Read, share: FileShare.ReadWrite);
-            logStream = new StreamReader(fileStream);
-            
-            // Move to the end of the file
-            fileStream.Seek(-512, SeekOrigin.End);
+            if (File.Exists(logPath))
+            {
+                try
+                {
+                    fileStream = File.Open(logPath, mode: FileMode.Open, access: FileAccess.Read, share: FileShare.ReadWrite);
+                    logStream = new StreamReader(fileStream);
+                } catch (Exception ex)
+                {
+                    MessageBox.Show("Could not open log file: " + ex.ToString());
+                    Environment.Exit(0);
+                }
+
+                // Move to the end of the file
+                fileStream.Seek(-512, SeekOrigin.End);
+                // Start watching client log file
+                zoneWatcher.Enabled = true;
+
+            }
+            else
+            {
+                MessageBox.Show("Could not open log file: " + logPath);
+                Environment.Exit(0);
+            }
         }
         
         private Tuple<string, object[], string> FindZoneName(string zoneName)
         {
             bool firstHit = false;
-            foreach (var region in zoneData)
-                foreach (var zone in region.Zone)
+            foreach (var region in jsonData)
+                if (region.clientLogFile != null) {
+                    continue;
+                } else
                 {
-                    // if PartTwo is enabled, skip first entry...
-                    if (zone.ZoneName.Equals(zoneName))
+                    foreach (var zone in region.Zone)
                     {
-                        if (partTwo && !firstHit)
+                        // if PartTwo is enabled, skip first entry...
+                        if (zone.ZoneName.Equals(zoneName))
                         {
-                            firstHit = true;
-                        } else
-                        {
-                            return Tuple.Create(region.Region, zone.ZoneSeed, zone.Note);
+                            if (partTwo && !firstHit)
+                            {
+                                firstHit = true;
+                            }
+                            else
+                            {
+                                return Tuple.Create(region.Region, zone.ZoneSeed, zone.Note);
+                            }
+
                         }
-                        
                     }
                 }
 
@@ -112,6 +127,7 @@ namespace PoeDirectionHelper
                     }
                 } else if (seedList.Item3 != null) 
                 {
+                    // Notes only - no map seed
                     image = String.Format("{0}\\Overlays\\no_overlay.png", currentDirectory);
                     DrawMapNoOverlay(image, seedList.Item3);
                 }
@@ -137,6 +153,7 @@ namespace PoeDirectionHelper
                 Location = new Point(0, 0)
 
             };
+
             listOfPictures[0].MouseDown += new System.Windows.Forms.MouseEventHandler(this.overlayMap_MouseDown);
             listOfPictures[0].MouseUp += new System.Windows.Forms.MouseEventHandler(this.overlayMap_MouseUp);
             listOfPictures[0].MouseMove += new System.Windows.Forms.MouseEventHandler(this.overlayMap_MouseMove);
@@ -263,6 +280,12 @@ namespace PoeDirectionHelper
             {
                 dragging = false;
             }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            // Draw nothing.
+            DrawMapNoOverlay(String.Format("{0}\\Overlays\\no_overlay.png", currentDirectory), "No information.");
         }
     }
 }
